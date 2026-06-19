@@ -1,0 +1,61 @@
+# ==========================================
+# macOS System Files (Crucial for Mac users)
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ==========================================
+# Streamlit Specific Files
+# ==========================================
+# CRITICAL: Always ignore local secrets/API keys
+.streamlit/secrets.toml
+
+# Ignore local configuration overrides
+.streamlit/config.toml
+
+# ==========================================
+# Python & Environment Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# ==========================================
+# Data Science & Large Data Files
+# ==========================================
+
+
+# Whitelist an empty data folder if needed
+# !data/
+
+# ==========================================
+# IDEs and Code Editors
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
